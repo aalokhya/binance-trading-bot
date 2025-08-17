@@ -1,0 +1,102 @@
+2025-08-17 22:02:55,070 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:02:55,086 | INFO | Placing order: symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop_price=None dry_run=False
+2025-08-17 22:02:55,093 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1755448375091, 'recvWindow': 5000, 'signature': '680d6cd68b0af4cb27b9a2df8563e1ad3b2354b15a65e35987d56925c9002990'}
+2025-08-17 22:02:55,675 | DEBUG | Response (200): {"orderId":5593205074,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"TES3iqeKWLG6vt3QmCZNUC","price":"0.00","avgPrice":"0.00","origQty":"0.001","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1755448376037}
+2025-08-17 22:02:55,675 | INFO | Order response: {'orderId': 5593205074, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'TES3iqeKWLG6vt3QmCZNUC', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1755448376037}
+2025-08-17 22:06:55,155 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:06:55,160 | INFO | Placing order: symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop_price=None dry_run=False
+2025-08-17 22:06:55,160 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1755448615160, 'recvWindow': 5000, 'signature': 'f0a81a9368b804f4bc942839e13b26966ad70785b9284c96f5f9bc282306a7ea'}
+2025-08-17 22:06:56,307 | DEBUG | Response (200): {"orderId":5593215624,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"ZV7xqL0WgljxYQ9vEgMLek","price":"0.00","avgPrice":"0.00","origQty":"0.001","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1755448616670}
+2025-08-17 22:06:56,307 | INFO | Order response: {'orderId': 5593215624, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'ZV7xqL0WgljxYQ9vEgMLek', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1755448616670}
+2025-08-17 22:07:04,197 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:07:04,199 | INFO | Placing order: symbol=BTCUSDT side=SELL type=MARKET qty=0.001 price=None stop_price=None dry_run=False
+2025-08-17 22:07:04,201 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1755448624201, 'recvWindow': 5000, 'signature': '2e9e91770b7a51431214ce10ef3955570b31879664a17c2a2f83de975315b00c'}
+2025-08-17 22:07:04,778 | DEBUG | Response (200): {"orderId":5593215815,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"TAh9zuanquDBfBNk9nsRpf","price":"0.00","avgPrice":"0.00","origQty":"0.001","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1755448625151}
+2025-08-17 22:07:04,778 | INFO | Order response: {'orderId': 5593215815, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'TAh9zuanquDBfBNk9nsRpf', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1755448625151}
+2025-08-17 22:07:10,995 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:07:11,010 | INFO | Placing order: symbol=BTCUSDT side=BUY type=LIMIT qty=0.001 price=25000.0 stop_price=None dry_run=False
+2025-08-17 22:07:11,011 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'timestamp': 1755448631011, 'recvWindow': 5000, 'price': '25000.0', 'timeInForce': 'GTC', 'signature': '79e7a51b85372195a12b9782bfeebe30d6d9669a263bf782c55680704984348e'}
+2025-08-17 22:07:11,603 | DEBUG | Response (400): {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2025-08-17 22:07:11,607 | ERROR | HTTP error during POST https://testnet.binancefuture.com/fapi/v1/order: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448631011&recvWindow=5000&price=25000.0&timeInForce=GTC&signature=79e7a51b85372195a12b9782bfeebe30d6d9669a263bf782c55680704984348e
+2025-08-17 22:07:11,609 | ERROR | Failed to place order
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 158, in place_order_cli
+    resp = self.client.place_order(symbol=symbol, side=side, order_type=ord_type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 108, in place_order
+    return self._post(path, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 68, in _post
+    res.raise_for_status()
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448631011&recvWindow=5000&price=25000.0&timeInForce=GTC&signature=79e7a51b85372195a12b9782bfeebe30d6d9669a263bf782c55680704984348e
+2025-08-17 22:07:11,670 | ERROR | Order failed: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448631011&recvWindow=5000&price=25000.0&timeInForce=GTC&signature=79e7a51b85372195a12b9782bfeebe30d6d9669a263bf782c55680704984348e
+2025-08-17 22:11:32,627 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:11:32,627 | INFO | Placing order: symbol=BTCUSDT side=BUY type=LIMIT qty=0.001 price=25000.0 stop_price=None dry_run=False
+2025-08-17 22:11:33,430 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'timestamp': 1755448893430, 'recvWindow': 5000, 'price': '24999.9', 'timeInForce': 'GTC', 'signature': 'f479f2b5d89f9d589e8efe58201e24c03242d2444d55b4c476c045c6c92705e9'}
+2025-08-17 22:11:33,844 | DEBUG | Response (400): {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2025-08-17 22:11:33,846 | ERROR | HTTP error during POST https://testnet.binancefuture.com/fapi/v1/order: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448893430&recvWindow=5000&price=24999.9&timeInForce=GTC&signature=f479f2b5d89f9d589e8efe58201e24c03242d2444d55b4c476c045c6c92705e9
+2025-08-17 22:11:33,846 | ERROR | Failed to place order
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 166, in place_order_cli
+    resp = self.client.place_order(symbol=symbol, side=side, order_type=ord_type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 121, in place_order
+    return self._post(path, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 68, in _post
+    res.raise_for_status()
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448893430&recvWindow=5000&price=24999.9&timeInForce=GTC&signature=f479f2b5d89f9d589e8efe58201e24c03242d2444d55b4c476c045c6c92705e9
+2025-08-17 22:11:33,853 | ERROR | Order failed: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448893430&recvWindow=5000&price=24999.9&timeInForce=GTC&signature=f479f2b5d89f9d589e8efe58201e24c03242d2444d55b4c476c045c6c92705e9
+2025-08-17 22:11:41,543 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:11:41,547 | INFO | Placing order: symbol=BTCUSDT side=BUY type=LIMIT qty=0.001 price=25000.0 stop_price=None dry_run=False
+2025-08-17 22:11:42,280 | DEBUG | POST https://testnet.binancefuture.com/fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'timestamp': 1755448902280, 'recvWindow': 5000, 'price': '24999.9', 'timeInForce': 'GTC', 'signature': 'fa434bf07666c94544a4ae8d58923835f2ea46b3fddc1b139f342887448047d8'}
+2025-08-17 22:11:42,708 | DEBUG | Response (400): {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2025-08-17 22:11:42,710 | ERROR | HTTP error during POST https://testnet.binancefuture.com/fapi/v1/order: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448902280&recvWindow=5000&price=24999.9&timeInForce=GTC&signature=fa434bf07666c94544a4ae8d58923835f2ea46b3fddc1b139f342887448047d8
+2025-08-17 22:11:42,711 | ERROR | Failed to place order
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 166, in place_order_cli
+    resp = self.client.place_order(symbol=symbol, side=side, order_type=ord_type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 121, in place_order
+    return self._post(path, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 68, in _post
+    res.raise_for_status()
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448902280&recvWindow=5000&price=24999.9&timeInForce=GTC&signature=fa434bf07666c94544a4ae8d58923835f2ea46b3fddc1b139f342887448047d8
+2025-08-17 22:11:42,714 | ERROR | Order failed: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=LIMIT&quantity=0.001&timestamp=1755448902280&recvWindow=5000&price=24999.9&timeInForce=GTC&signature=fa434bf07666c94544a4ae8d58923835f2ea46b3fddc1b139f342887448047d8
+2025-08-17 22:18:00,678 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:18:00,678 | INFO | Placing order: BTCUSDT BUY LIMIT qty=0.001 price=25000.0 stop_price=None dry_run=False
+2025-08-17 22:18:01,542 | ERROR | Failed to place order
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 134, in place_order_cli
+    resp = self.client.place_order(symbol, side, ord_type, quantity, price, stop_price, timeInForce)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 71, in place_order
+    min_notional = float(next(f["minNotional"] for f in info["filters"] if f["filterType"] == "MIN_NOTIONAL"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 71, in <genexpr>
+    min_notional = float(next(f["minNotional"] for f in info["filters"] if f["filterType"] == "MIN_NOTIONAL"))
+                              ~^^^^^^^^^^^^^^^
+KeyError: 'minNotional'
+2025-08-17 22:18:01,561 | ERROR | Order failed: 'minNotional'
+2025-08-17 22:19:28,448 | INFO | BasicBot initialized (testnet=True)
+2025-08-17 22:19:28,448 | INFO | Placing order: BTCUSDT BUY LIMIT qty=0.001 price=25000.0 stop_price=None dry_run=False
+2025-08-17 22:19:29,314 | ERROR | Failed to place order
+Traceback (most recent call last):
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 134, in place_order_cli
+    resp = self.client.place_order(symbol, side, ord_type, quantity, price, stop_price, timeInForce)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 71, in place_order
+    min_notional = float(next(f["minNotional"] for f in info["filters"] if f["filterType"] == "MIN_NOTIONAL"))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\OneDrive\Desktop\Training\trading-bot\basic_bot.py", line 71, in <genexpr>
+    min_notional = float(next(f["minNotional"] for f in info["filters"] if f["filterType"] == "MIN_NOTIONAL"))
+                              ~^^^^^^^^^^^^^^^
+KeyError: 'minNotional'
+2025-08-17 22:19:29,325 | ERROR | Order failed: 'minNotional'
